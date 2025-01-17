@@ -24,7 +24,7 @@ jobs:
           fetch-depth: '0'
 
       - name: Setup git-semver
-        uses: DJ-BBot/setup-git-semver@v1
+        uses: DJ-BBot/setup-git-semver@v1.0.1
         with:
           version: 'latest'
 
